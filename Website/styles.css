@@ -142,6 +142,12 @@ img {
     color: black;
 }
 
+.pkmn{
+    max-width: 75%;
+}
+.d2{
+    max-width: 75%;
+}
 @media(min-width:1200px) {
     .mainContainer {
         padding-left: 20px;
