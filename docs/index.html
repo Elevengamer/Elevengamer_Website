@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container mainContainer">
+
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-welcome-tab" data-bs-toggle="tab" data-bs-target="#nav-welcome"
+                    type="button" role="tab" aria-controls="nav-welcome" aria-selected="true">Welcome</button>
+                <button class="nav-link" id="nav-about-tab" data-bs-toggle="tab" data-bs-target="#nav-about"
+                    type="button" role="tab" aria-controls="nav-about" aria-selected="false">Über Mich</button>
+                <button class="nav-link" id="nav-sozialmedia-tab" data-bs-toggle="tab" data-bs-target="#nav-sozialmedia"
+                    type="button" role="tab" aria-controls="nav-sozialmedia" aria-selected="false">Sozialmedia</button>
+                <button class="nav-link" id="nav-gaming-tab" data-bs-toggle="tab" data-bs-target="#nav-gaming"
+                    type="button" role="tab" aria-controls="nav-gaming" aria-selected="false">Gaming</button>
+                <button class="nav-link" id="nav-discord-tab" data-bs-toggle="tab" data-bs-target="#nav-discord"
+                    type="button" role="tab" aria-controls="nav-discord" aria-selected="false">Discord</button>
+                <button class="nav-link" id="nav-recos-tab" data-bs-toggle="tab" data-bs-target="#nav-recos"
+                    type="button" role="tab" aria-controls="nav-recos" aria-selected="false">Empfehlungen</button>
+            </div>
+
+
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-welcome" role="tabpanel"
+                    aria-labelledby="nav-welcome-tab" tabindex="0">
+
+                    <div class="container innerContainer">
+                        <h1 class="welcomeHeading">Willkommen auf meiner Website</h1>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab" tabindex="0">
+                    <div class="container">
+                        <!--Card-->
+                        <div class="card mb-3 align-self-center cardContainer cardHolderAM">
+
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="sources/images/profilePicture/profile.png" class="img-fluid rounded-start"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title elevenTitle">Elevengamer</h5>
+
+                                        <table class="card-text tableBorder">
+                                            <tbody>
+                                                <tr>
+                                                    <th class="col-50-pw tableBorder colPad">Vorname: </th>
+                                                    <td class="col-50-pw tableBorder colPad">Nils</td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="col-50-pw tableBorder colPad">Nachname: </th>
+                                                    <td class="col-50-pw tableBorder colPad">Albrecht</td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="col-50-pw tableBorder colPad">Alter: </th>
+                                                    <td class="col-50-pw tableBorder colPad">17</td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="col-50-pw tableBorder colPad">Nationalität: </th>
+                                                    <td class="col-50-pw tableBorder colPad">Deutsch</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="nav-sozialmedia" role="tabpanel" aria-labelledby="nav-sozialmedia-tab"
+                    tabindex="0">
+                    <div class="container">
+                        <!--Card-->
+                        <div class="card mb-3 align-self-center cardContainer" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="sources/images/profilePicture/profile.png" class="img-fluid rounded-start"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Instagram</h5>
+
+                                        <p class="card-text">
+                                            Ihr findet mich auch auf Instagram unter meinem üblichen namen! <br>
+                                            Allerdings poste ich nur selten bis nie irgendwelche Beiträge dennoch könnt
+                                            ihr es als
+                                            Kommunikationsweg verwenden um mit mir in Kontakt zu treten.
+                                        </p>
+                                        <p class="card-text textWithLink"> Hier noch ein Link zu meinem <a
+                                                href="https://instagram.com/Elevengamer_">Instagram </a>Profil</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Card-->
+                        <div class="card mb-3 align-self-center cardContainer" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="sources/images/profilePicture/profile.png" class="img-fluid rounded-start"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">YouTube</h5>
+
+                                        <p class="card-text">
+                                            Ich bin, wenn ich genug Zeithabe, an den Wochenenden eigentlich regel mäßig
+                                            auf YouTube live <br>
+                                            Gestreamt werden Spiele wie Need for Speed, Fifa / Ea FC, Destiny 2, etc.
+                                            <br>
+                                            Mehr dazu erfahrt ihr in der Gaming Kategorie!
+                                        </p>
+                                        <p class="card-text textWithLink"> Hier kommst du zu meinem <a
+                                                href="https://youtube.com/channel/UCP2Kd-FND3DU-bnv4smB2eQ">YouTube</a>
+                                            Account</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="tab-pane fade" id="nav-gaming" role="tabpanel" aria-labelledby="nav-gaming-tab"
+                    tabindex="0">
+                    <div class="container">
+                        <!--Card-->
+                        <div class="cardBox">
+                            <div class="card cards" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Card-->
+                        <div class="cardBox">
+                            <div class="card cards" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Card-->
+                        <div class="cardBox">
+                            <div class="card cards" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Card-->
+                        <div class="cardBox">
+                            <div class="card cards" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Card-->
+                        <div class="cardBox">
+                            <div class="card cards" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Card-->
+                        <div class="cardBox">
+                            <div class="card cards" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Card-->
+                        <div class="cardBox">
+                            <div class="card cards" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="nav-discord" role="tabpanel" aria-labelledby="nav-discord-tab"
+                    tabindex="0">
+
+                    <div class="container dcContainer">
+                        <h1 class="headingDC">Discord</h1>
+
+                        <div class="card cardDC">
+                            <img src="dcServerImage" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="Community Server">Card title</h5>
+                                <p class="card-text">
+                                    Ich habe für meine Community einen Discord-Server eingerichtet.<br>
+                                    Dieser ist zwar noch im Aufbau, kann aber dennoch genutz werden.
+                                </p>
+                            </div>
+                            <h5>Ein Paar regeln für den Server</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Es wird nicht beleidigt</li>
+                                <li class="list-group-item">Keine eigen Werbung</li>
+                                <li class="list-group-item">Kein Spam</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Dem Server beitreten</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="tab-pane fade" id="nav-recos" role="tabpanel" aria-labelledby="nav-recos-tab" tabindex="0">
+
+                    <div class="container">
+                        <!--Card-->
+                        <div class="cardBox">
+                            <div class="card cards" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Card-->
+                        <div class="cardBox">
+                            <div class="card cards" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Card-->
+                        <div class="cardBox">
+                            <div class="card cards" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Card-->
+                        <div class="cardBox">
+                            <div class="card cards" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Card-->
+                        <div class="cardBox">
+                            <div class="card cards" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Card-->
+                        <div class="cardBox">
+                            <div class="card cards" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Card-->
+                        <div class="cardBox">
+                            <div class="card cards" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+<style>
+    :root {
+        --black: black;
+        --white: white;
+        --greenB: rgb(14, 185, 39);
+        --grey: rgb(33, 37, 41);
+        --blueB: #00FFFF;
+        --blueD: #0033FF;
+        --redB: rgb(242, 8, 10);
+
+
+    }
+
+    .nav-tabs .nav-link {
+        color: var(--white);
+        background-color: var(--blueD);
+        border: 2px solid var(--black);
+        box-shadow: 2px 1px 6px 1.5px var(--blueB);
+        border-bottom: 2px solid var(--blueB);
+        margin-bottom: 2px;
+    }
+    .nav-tabs .nav-link:hover {
+        background-color: var(--grey);
+        color: var(--blueB);
+        border: 2px solid var(--blueB);
+        border-bottom: 2px solid var(--blueD);
+        box-shadow: 2px 1px 6px 1.5px var(--white) ;
+    }
+    .nav-tabs .nav-link.active {
+        background-color: var(--greenB);
+        border: 2px solid var(--black);
+        color: var(--white);
+        box-shadow: 0px 0px 3px 3px var(--greenB) ;
+        border-bottom: 2px solid var(--black);
+    }
+
+    body {
+        background-color: var(--black);
+        color: var(--white);
+    }
+
+    .mainContainer {
+        border: 2px solid var(--grey);
+        margin-top: 3%;
+        padding-top: 2%;
+        margin-bottom: 3%;
+        box-shadow: 0px 0px 10px 10px var(--greenB);
+        min-height: 90vh;
+        max-height: calc(max-content+10px);
+        padding-bottom: 3%;
+    }
+
+    .cardContainer {
+        background-color: var(--grey);
+        color: var(--blueB);
+        margin: auto;
+        margin-top: 5%;
+        box-shadow: 0px 0px 4px 4px var(--greenB);
+        margin-bottom: 5%;
+    }
+
+    .tableBorder {
+        border: 2px solid var(--black);
+        border-collapse: collapse;
+    }
+
+    .colPad {
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    th,
+    td {
+        width: 50%;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    img {
+        align-self: center;
+    }
+
+    .elevenTitle{
+        border-bottom: 2px solid var(--black);
+        width: 100%;
+        border-bottom-width: 100%;
+    }
+
+    a{
+        color: var(--white);
+        text-shadow: 2px 2px var(--blueD);
+        text-decoration: none;
+        font-style: italic;
+    }
+
+    .textWithLink{
+        background-color: var(--black);
+        padding-left: 3px;
+        padding-right: 3px;
+        border-radius: 3px;
+        border: 1px solid var(--white);
+
+    }
+
+    .cards{
+        background-color: var(--grey);
+        color: var(--blueB);
+        box-shadow: 0px 0px 4px 4px var(--greenB);
+        border: 2px solid var(--black);
+        margin: 3%;
+    }
+    
+    .card-title{
+        border-bottom: 2px solid var(--black) ;
+    }
+
+
+    .welcomeHeading {
+        padding: 3px;
+        margin: 25%;
+        text-align: center;
+        width: 50%;
+        border-radius: 20px;
+        border: 2px solid var(--grey);
+        box-shadow: 0px 0px 4px 4px var(--greenB);
+        color: var(--blueB);
+        text-shadow: 2px 2px var(--blueD);
+    }
+
+    .innerContainer {
+        margin-top: 3%;
+        height: 81vh;        
+        border: 2px solid var(--grey);
+        box-shadow: 0px 0px 4px 4px var(--greenB);
+        align-items: center;
+    }
+
+    .card-link{
+        border: 2px solid var(--white);
+        box-shadow: 0px 0px 3px 3px var(--blueD),
+            inset 0px 0px 3px 3px var(--black);
+        padding: 4px;
+        border-radius: 10px;
+    }
+
+    .cardBox {
+        display: inline-block;
+        width: min-content;
+        height: min-content;
+        margin: 1%;
+    }
+
+    .cardHolderAM {
+        padding: 10%;
+        height: 80%;
+        width: 80%;
+    }
+
+    .headingDC{
+        margin-top: 3%;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        text-align: center;
+        border: 2px solid var(--blueB);
+        background-color: var(--grey);
+        border-radius: 20px;
+        box-shadow: 0px 0px 35px 7px var(--blueD),
+            inset 0px 0px 5px 5px var(--black);
+
+    }
+
+    .cardDC{
+        width: 70%;
+        background-color: var(--grey);
+        color: var(--blueB);
+        box-shadow: 0px 0px 4px 4px var(--greenB);
+        border: 2px solid var(--black);
+        margin: 3%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    li{
+        border: 2px solid var(--white);
+        box-shadow: 0px 0px 3px 3px var(--blueD);
+        border-radius: 10px;
+        margin: 4px;
+        color: var(--blueD);
+    }
+
+</style>
+
+</html>
